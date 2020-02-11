@@ -1,0 +1,119 @@
+#PDBDataCardBody {
+    padding: 0 !important;
+}
+
+.form-control {
+    height: calc(1.5em + .4rem);
+}
+
+.react-grid-Row:hover {
+    background: #BB86FC !important;
+    color: #000 !important;
+}
+
+.react-grid-Cell {
+    background: none !important;
+    border-right: 1px solid #1E1E2A !important;
+    border-bottom: 1px solid #1E1E2A !important;
+}
+
+.react-grid-Toolbar {
+    background-color: #222230 !important;
+    border-color: #222230 !important;
+}
+
+.react-grid-Main {
+    background-color: #222230 !important;
+    outline: 1px solid #191927 !important;
+}
+
+.react-grid-Grid {
+    background-color: #222230 !important;
+    border: 1px solid #222230 !important;
+}
+
+.react-grid-Canvas {
+    background-color: #222230 !important;
+}
+
+.react-grid-HeaderCell {
+    background-color: #222230 !important;
+    border-right: 1px solid #1E1E2A !important; 
+    border-bottom: 1px solid #1E1E2A !important;
+}
+
+.react-grid-Header {
+    background-color: #222230 !important;
+}
+
+.tools button {
+    color: #6C756F !important;
+    background: #191927 !important;
+    border: 1px solid #191927 !important;
+}
+
+.react-grid-HeaderCell .form-group input {
+    color: #6C756F !important;
+    background-color: #191927 !important;
+    border: 1px solid #191927 !important;
+}
+
+.PDBMainContent {
+    margin-top: 70px;
+}
+
+#PDBKeyword {
+    color: #168E97 !important;
+}
+
+.h1 {
+    color: #D5D5D8 !important;
+}
+
+.ExampleSearches{
+    margin-top: -1rem;
+}
+
+.TextFaded {
+    color: rgb(255,255,255,0.4);
+}
+
+.RelatedQueriesLink {
+    color: rgb(255,255,255,0.75);
+}
+
+.RelatedQueriesLink:hover {
+    color: #BB86FC !important;
+}
+
+.pdbrelated-dropdown-menu a:not(.pdbrelated-dropdown-item) {
+    padding: 0 !important;
+    color: lightgrey !important;
+}
+
+.pdbrelated-dropdown-menu a:hover {
+    background-color: #191927 !important;
+}
+
+.list-group-item {
+    background-color: #222230 !important;
+}
+
+.dropdown-menu {
+    background-color: #2A2A3B !important;
+}
+
+.pdbrelated-dropdown-item {
+    padding-top: 0.5rem !important;
+    padding-bottom: 0.5rem !important;
+    padding-left: 0.8rem !important;
+    color: lightgrey !important;
+}
+
+#stats-summary-item {
+    color: rgb(255,255,255,0.75) !important;
+}
+
+#stats-summary-desc {
+    color: rgb(255,255,255,0.4) !important;
+}

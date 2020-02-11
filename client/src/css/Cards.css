@@ -1,0 +1,9 @@
+.card {
+    background-color: #222230 !important;
+    box-shadow: 0.2rem 0.8rem 1rem rgba(0,0,0,.175)!important;
+}
+
+.card-header {
+    background-color: #191927 !important;
+    border-color: #191927 !important;
+}

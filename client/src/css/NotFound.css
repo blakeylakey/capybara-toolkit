@@ -1,0 +1,22 @@
+@media (min-width: 992px) {
+    #errored-header {
+        font-size: 5rem;
+    }
+    #not-found-header {
+        font-size: 20rem;
+    }
+
+    #not-found-p {
+        font-size: 2rem;
+    }
+}
+
+@media (min-width: 768px) {
+    #not-found-header {
+        font-size: 15rem;
+    }
+
+    #not-found-p {
+        font-size: 2rem;
+    }
+}

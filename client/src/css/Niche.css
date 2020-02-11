@@ -1,0 +1,81 @@
+#niche-form-button {
+    background-color: #F070A1 !important;
+    border-color: #F070A1 !important;
+    color: black;
+    font-weight: 600;
+}
+
+.niche-cat-checkbox label {
+    cursor: pointer;
+}
+
+.niche-cat-checkbox label:hover input ~ .niche-cat-checkmark {
+    background-color: #bbb;
+}
+
+.niche-cat-checkbox input:checked ~ .niche-cat-checkmark {
+    background-color: #F070A1;
+}
+
+.niche-cat-checkbox input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+.niche-cat-checkmark {
+  position: absolute;
+  top: 10%;
+  left: 0;
+  height: 1.2rem;
+  width: 1.2rem;
+  border-radius: 10%;
+  background-color: #eee;
+}
+
+.niche-cat-checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+
+.niche-cat-checkbox input:checked ~ .niche-cat-checkmark:after {
+    display: block;
+}
+  
+.niche-cat-checkbox .niche-cat-checkmark:after {
+    left: 25%;
+    top: -4%;
+    width: 0.5rem;
+    height: 1rem;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.input-range__slider {
+    background: #fff !important;
+    border-color: #DBE0E3 !important;
+    height: 1.2rem !important;
+    width: 1.2rem !important;
+}
+
+.input-range__track--active {
+    background: #F070A1 !important;
+}
+
+.input-range__track {
+    height: 0.4rem !important;
+}
+
+.input-range__label--max, .input-range__label--min {
+    display: none !important;
+}
+
+.input-range__label {
+    font-family: 'Montserrat', sans-serif !important;
+}

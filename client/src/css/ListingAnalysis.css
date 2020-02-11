@@ -1,0 +1,11 @@
+.ReactModal__Overlay {
+    z-index: 2000 !important;
+}
+
+#la-screenshot-card:hover {
+    cursor: pointer;
+}
+
+#LAAsin{
+    color: #137F68 !important;
+}

@@ -1,0 +1,32 @@
+{
+  "name": "server",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "@bstrickl/blurriness": "0.0.9",
+    "cookie-parser": "~1.4.4",
+    "cull-keywords": "^1.0.2",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "fs": "0.0.1-security",
+    "google-trends-api": "^4.9.0",
+    "http-errors": "~1.6.3",
+    "image-checker": "^1.0.5",
+    "image-luminosity": "^0.1.1",
+    "morgan": "~1.9.1",
+    "nlcst-to-string": "^2.0.3",
+    "pg-promise": "^9.3.3",
+    "pixel-average": "^1.0.1",
+    "puppeteer": "^2.0.0",
+    "rake-js": "^0.1.1",
+    "request": "^2.88.0",
+    "retext": "^7.0.1",
+    "retext-keywords": "^5.0.0",
+    "retext-pos": "^2.0.2",
+    "to-vfile": "^6.0.0",
+    "unified": "^8.4.2"
+  }
+}
