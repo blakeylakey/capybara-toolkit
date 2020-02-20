@@ -1,9 +1,9 @@
 import React from "react";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 function NavigationSideBarLink(props) {
   const active = props.active ? "active " : "";
-  const style = {color: props.color};
+  const style = { color: props.color, marginBottom: "0" };
 
   return (
     <li className="nav-item mt-2 sidebar-nav-item">

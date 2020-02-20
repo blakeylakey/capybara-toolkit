@@ -34,7 +34,7 @@
     }
 }
 
-.sidebar-nav-item a:not(.active) {
+.sidebar-nav-item p:not(.active) {
     color: white !important;
 }
 
