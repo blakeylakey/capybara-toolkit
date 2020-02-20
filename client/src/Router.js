@@ -19,10 +19,14 @@ import "./css/NotFound.css";
 import "./css/TEMPSpacer.css"
 import "./css/ErrorModal.css";
 
+import NavigationTopBar from "./components/NavBars/NavigationTopBar";
+import FooterContent from "./components/FooterContent";
+
 function CapybaraRouter(props) {
   return (
     <ErrorBoundary>
-      <Router>
+      <Router>        
+        <NavigationTopBar noShadow />
         <Switch>
           <Route exact path="/" render={(props) => <Page active="home" {...props} noSidebar />} />
 
@@ -37,6 +41,7 @@ function CapybaraRouter(props) {
 
           <Route component={NotFound} />
         </Switch>
+        <FooterContent noMarginTop />
       </Router>
     </ErrorBoundary>
   );

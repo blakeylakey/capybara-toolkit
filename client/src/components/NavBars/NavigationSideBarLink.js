@@ -7,14 +7,14 @@ function NavigationSideBarLink(props) {
 
   return (
     <li className="nav-item mt-2 sidebar-nav-item">
-      <a className={active + "nav-link sidebar-nav-link"} href={props.href} style={style}>
+      <p className={active + "nav-link sidebar-nav-link"} style={style}>
         <FontAwesomeIcon
           icon={props.icon}
           className="mx-3"
           color={props.color}
         />
         {props.title}
-      </a>
+      </p>
     </li>
   );
 }

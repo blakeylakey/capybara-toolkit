@@ -1,8 +1,12 @@
 import React from "react";
 
 import { Row, Col, Button, Container, Jumbotron } from "react-bootstrap";
+import { Link } from "react-router-dom";
 
 function HomeStartNow() {
+  const navStyle = {
+    textDecoration: "none"
+  };
   return (
     <Row>
       <Jumbotron fluid id="home-start-now">
@@ -21,31 +25,25 @@ function HomeStartNow() {
                 <Col sm={{ span: 10, offset: 1 }} lg={{ span: 8, offset: 2 }}>
                   <Row className="text-center">
                     <Col sm={12} md={4} className="py-2">
-                      <Button
-                        variant="primary"
-                        className="start-now-buttons"
-                        href="/tools/pdb"
-                      >
-                        product keywords
-                      </Button>
+                    <Link to="/tools/pdb" style={navStyle}>
+                        <Button variant="primary" className="start-now-buttons">
+                          product keywords
+                        </Button>
+                      </Link>
                     </Col>
                     <Col sm={12} md={4} className="py-2">
-                      <Button
-                        variant="primary"
-                        className="start-now-buttons"
-                        href="/tools/niche"
-                      >
-                        niche explorer
-                      </Button>
+                      <Link to="/tools/niche" style={navStyle}>
+                        <Button variant="primary" className="start-now-buttons">
+                          niche explorer
+                        </Button>
+                      </Link>
                     </Col>
                     <Col sm={12} md={4} className="py-2">
-                      <Button
-                        variant="primary"
-                        className="start-now-buttons"
-                        href="/tools/la"
-                      >
-                        listing analysis
-                      </Button>
+                      <Link to="/tools/la" style={navStyle}>
+                        <Button variant="primary" className="start-now-buttons">
+                          listing analysis
+                        </Button>
+                      </Link>
                     </Col>
                   </Row>
                 </Col>
